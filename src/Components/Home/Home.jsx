@@ -10,10 +10,9 @@ const Home = () => {
           UI frameworks and app development tools that 2.1 million developers
           love
         </h2>
-          <div className="w-10 mt-72">
-          <img src="../src/assets/Animation.gif" alt="Animation" />
-          </div>
+      <div className="scroll fixed bottom-5"></div>
       </div>
+
     </main>
   );
 };
