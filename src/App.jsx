@@ -1,14 +1,15 @@
 import React from "react";
 import Navbar from "./Components/Navbar/Navbar";
 import Home from "./Components/Home/Home";
+import Feature from "./Components/Feature/Feature";
 import "./App.css";
 
 function App() {
   return (
     <>
-        <Navbar />
+      <Navbar />
       <Home />
-      {/* <h1>hello</h1> */}
+      <Feature />
     </>
   );
 }
