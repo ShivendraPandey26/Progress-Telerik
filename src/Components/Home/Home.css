@@ -1,5 +1,5 @@
 .hero-section {
-    background-image: url('./src/assets/header photo.jpg');
+    background-image: url('https://images.pexels.com/photos/3760069/pexels-photo-3760069.jpeg');
     background-size: cover;
     background-position: center;
     background-color: rgba(0, 0, 0, 0.507); /* Fallback color if the image doesn't load */
