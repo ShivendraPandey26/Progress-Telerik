@@ -1,0 +1,9 @@
+.hero-section {
+    background-image: url('./src/assets/header photo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.507); /* Fallback color if the image doesn't load */
+    background-blend-mode: darken; /* Darkens the image using a blending mode */
+    color: white; /* Light text for contrast */
+}
+
