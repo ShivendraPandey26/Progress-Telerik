@@ -19,7 +19,7 @@ function Navbar() {
               height="50"
               color="#ffffff"
               viewBox="0 0 400.4 60.3"
-              className="lg:m-[-20px] lg:ms-[-100px]"
+              className="lg:m-[-20px] lg:ms-[-80px]"
             >
               <path
                 fill="#fff"
@@ -148,9 +148,9 @@ function Navbar() {
               version="1.1"
               id="Capa_1"
               xmlns="http://www.w3.org/2000/svg"
-              xmlns:xlink="http://www.w3.org/1999/xlink"
+              xmlnsXlink="http://www.w3.org/1999/xlink"
               viewBox="0 0 488.4 488.4"
-              xml:space="preserve"
+              xmlSpace="preserve"
             >
               <g>
                 <g>
@@ -237,9 +237,9 @@ function Navbar() {
             version="1.1"
             id="Capa_1"
             xmlns="http://www.w3.org/2000/svg"
-            xmlns:xlink="http://www.w3.org/1999/xlink"
+            xmlnsXlink="http://www.w3.org/1999/xlink"
             viewBox="0 0 488.4 488.4"
-            xml:space="preserve"
+            xmlSpace="preserve"
           >
             <g>
               <g>
