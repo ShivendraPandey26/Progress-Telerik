@@ -1,9 +1,58 @@
 .hero-section {
-    background-image: url('https://images.pexels.com/photos/3760069/pexels-photo-3760069.jpeg');
-    background-size: cover;
-    background-position: center;
-    background-color: rgba(0, 0, 0, 0.507); /* Fallback color if the image doesn't load */
-    background-blend-mode: darken; /* Darkens the image using a blending mode */
-    color: white; /* Light text for contrast */
+  background-image: url("https://images.pexels.com/photos/3760069/pexels-photo-3760069.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.507
+  ); /* Fallback color if the image doesn't load */
+  background-blend-mode: darken; /* Darkens the image using a blending mode */
+  color: white; /* Light text for contrast */
 }
 
+.scroll {
+  width: 60px;
+  height: 60px;
+  border: 3px solid #c6ced9;
+  border-radius: 50%;
+  position: relative;
+  animation: down 1.5s infinite;
+  -webkit-animation: down 1.5s infinite;
+  &::before {
+    content: "";
+    position: absolute;
+    top: 15px;
+    left: 18px;
+    width: 18px;
+    height: 18px;
+    border-left: 2px solid #a9b3c1;
+    border-bottom: 2px solid #b5becb;
+    transform: rotate(-45deg);
+  }
+}
+
+@keyframes down {
+  0% {
+    transform: translate(0);
+  }
+  20% {
+    transform: translateY(15px);
+  }
+  40% {
+    transform: translate(0);
+  }
+}
+
+@-webkit-keyframes down {
+  0% {
+    transform: translate(0);
+  }
+  20% {
+    transform: translateY(15px);
+  }
+  40% {
+    transform: translate(0);
+  }
+}
